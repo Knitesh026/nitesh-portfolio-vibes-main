@@ -43,7 +43,7 @@ const Footer = () => {
             <ul className="space-y-4">
               <li className="flex items-center">
                 <Mail className="mr-2 h-5 w-5 opacity-80" />
-                <span>kr.nitesh026@gmaail..om</span>
+                <span>kr.nitesh026@gmail.com</span>
               </li>
               <li className="flex items-center">
                 <Phone className="mr-2 h-5 w-5 opacity-80" />
@@ -60,7 +60,7 @@ const Footer = () => {
         <div className="border-t border-primary-foreground/20 mt-8 pt-8 text-center text-primary-foreground/60">
           <p className="mb-2">&copy; {currentYear} Nitesh Kumar. All rights reserved.</p>
           <p className="flex items-center justify-center text-sm">
-            This portfolio is initiative of PageCraft Tech. with love 
+            This portfolio is initiative of PageCraft Tech. with 
             <Heart 
               className="mx-1 text-red-400 transition-all duration-300" 
               fill="currentColor"

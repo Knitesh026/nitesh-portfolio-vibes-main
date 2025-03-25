@@ -7,7 +7,7 @@ const workItems = [
     id: 1, 
     category: "leadership", 
     title: "Team Leadership",
-    imageUrl: "https://images.unsplash.com/photo-1519389950473-47ba0277781c?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80"
+    imageUrl: "/img/teamleadeship.png"
   },
   { 
     id: 2, 
@@ -19,7 +19,7 @@ const workItems = [
     id: 3, 
     category: "mentoring", 
     title: "Team Mentoring",
-    imageUrl: "https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80"
+    imageUrl: "/img/Teammentoring.png"
   },
   { 
     id: 4, 
@@ -31,13 +31,13 @@ const workItems = [
     id: 5, 
     category: "training", 
     title: "Training Sessions",
-    imageUrl: "https://images.unsplash.com/photo-1498050108023-c5249f4df085?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80"
+    imageUrl: "/img/Trainings.png"
   },
   { 
     id: 6, 
     category: "workplace", 
     title: "Workplace Environment",
-    imageUrl: "https://images.unsplash.com/photo-1483058712412-4245e9b90334?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80"
+    imageUrl: "/img/Worke.png"
   },
 ];
 

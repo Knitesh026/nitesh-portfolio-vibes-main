@@ -17,39 +17,51 @@ import { useGallery } from '@/contexts/GalleryContext';
 const galleryImages = [
   {
     id: 1,
-    url: "https://images.unsplash.com/photo-1605810230434-7631ac76ec81?ixlib=rb-1.2.1&auto=format&fit=crop&w=1200&q=80",
-    title: "Team Collaboration Session",
-    description: "Our team brainstorming during the annual strategy meeting."
+    url: "/img/technotask3.jpg",
+    title: "Holi Celebration with Team Member - Technotsk Business Solutions",
+    description: "A glimpse of Holi Celebration with team members -2025"
   },
   {
     id: 2,
-    url: "https://images.unsplash.com/photo-1519389950473-47ba0277781c?ixlib=rb-1.2.1&auto=format&fit=crop&w=1200&q=80",
-    title: "Project Planning",
-    description: "Team members discussing the roadmap for our next product launch."
+    url: "/img/technotask1.jpg",
+    title: "Photo sessions on Diwali occassion - Technotask Business Solutions",
+    description: "Diwaling Ceberation with Collegues -2024"
   },
   {
     id: 3,
-    url: "https://images.unsplash.com/photo-1460925895917-afdab827c52f?ixlib=rb-1.2.1&auto=format&fit=crop&w=1200&q=80",
-    title: "Remote Work Session",
-    description: "Our team adapting to the new remote work environment."
+    url: "/img/techotask2.jpg",
+    title: "Photo sessions on Diwali occassion - Technotask Business Solutions",
+    description: "Diwaling Ceberation with Collegues -2024"
   },
   {
     id: 4,
-    url: "https://images.unsplash.com/photo-1522071820081-009f0129c71c?ixlib=rb-1.2.1&auto=format&fit=crop&w=1200&q=80",
-    title: "Team Building Activity",
-    description: "Building stronger bonds during our quarterly team retreat."
+    url: "/img/Technotask.jpg",
+    title: "Ganesh Pooja at - Technotask Business Solutions",
+    description: "A beautiful glimpse of Ganesh Pooja at our office -2024."
   },
   {
     id: 5,
-    url: "https://images.unsplash.com/photo-1573497620053-ea5300f94f21?ixlib=rb-1.2.1&auto=format&fit=crop&w=1200&q=80",
-    title: "Product Launch Celebration",
-    description: "Celebrating the successful launch of our latest product."
+    url: "/img/exp15.jpg",
+    title: "Photo session with team members - Airvincible pvt ltd",
+    description: "A photo session with team member on my birthday celebration, 2023."
   },
   {
-    id: 6,
-    url: "https://images.unsplash.com/photo-1556761175-b413da4baf72?ixlib=rb-1.2.1&auto=format&fit=crop&w=1200&q=80",
-    title: "Office Culture",
-    description: "A glimpse of our vibrant office environment."
+    id: 9,
+    url: "/img/exp13.jpg",
+    title: "Photo session with team members - Alturist technologies pvt ltd",
+    description: "A photo session with team member on my birthday celebration, 2022."
+  },
+  {
+    id: 10,
+    url: "/img/exp10.jpg",
+    title: "Team development and engagement acitvities - Altruist technologies pvt ltd",
+    description: "Activities at the office following white dresscode, -2022."
+  },
+  {
+    id: 11,
+    url: "/img/exp1.jpg",
+    title: "collegues at work - Alturist technologies pvt ltd",
+    description: "A glimpse of good times with collegues at work.,2021"
   }
 ];
 
@@ -76,10 +88,10 @@ const GallerySection = () => {
     <section id="gallery" className="py-20 md:py-32 bg-primary/5 relative animate-fade-in">
       <div className="container">
         <div className="text-center max-w-3xl mx-auto mb-16">
-          <div className="section-title animate-on-scroll">Company Gallery</div>
-          <h2 className="heading-md mb-6 animate-on-scroll">Our Memories</h2>
+          <div className="section-title animate-on-scroll">Gallery</div>
+          <h2 className="heading-md mb-6 animate-on-scroll">My Memories</h2>
           <p className="text-muted-foreground animate-on-scroll text-lg">
-            A visual journey through our company's special moments, celebrations, and milestones.
+            A visual journey through my past Experience in different companies.
           </p>
         </div>
 
@@ -123,7 +135,7 @@ const GallerySection = () => {
         </div>
 
         {/* Thumbnail Grid */}
-        <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-6 gap-3 animate-on-scroll">
+        <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-15 lg:grid-cols-12 gap-3 animate-on-scroll">
           {galleryImages.map((image, index) => (
             <div 
               key={image.id} 
