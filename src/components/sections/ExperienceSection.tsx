@@ -35,7 +35,7 @@ const experiences: Experience[] = [
     id: 2,
     title: "Team Leader - Operations",
     company: "Airvincible",
-    logo: "https://airvincible.com/img/logo.png", 
+    logo: "/img/logo.png", 
     location: "Indore, Madhya Pradesh",
     period: "January 2023 – March 2024",
     responsibilities: [
@@ -52,7 +52,7 @@ const experiences: Experience[] = [
     company: "Altruist Technologies Pvt. Ltd.",
     logo: "/img/Altruist-removebg-preview.png",
     location: "Indore, Madhya Pradesh",
-    period: "September 2021 – September 2022",
+    period: "September 2021 – Octumber 2022",
     responsibilities: [
       "Oversaw daily operations, staff workloads, and performance reporting.",
       "Focused on motivating the team and achieving KPI targets.",
@@ -66,7 +66,7 @@ const experiences: Experience[] = [
     company: "Altruist Technologies Pvt. Ltd.",
     logo: "/img/Altruist-removebg-preview.png",
     location: "Indore, Madhya Pradesh",
-    period: "September 2021 – September 2022",
+    period: "April 2021 – September 2021",
     responsibilities: [
       "Managed real-time floor operations, including break/schedule adherence and service levels (SLA).",
       "Handled escalations, resolved process-related queries, and addressed grievances.",
